@@ -1,43 +1,21 @@
 @font-face {
   font-family: Langar-Regular;
-  src: url(../font/Langar-Regular.ttf);
+  src: url(../fonts/Langar-Regular.ttf);
 }
 
 body {
-  font-family: Langar-Regular;
   line-height: 40px;
   background-image: url(../bg.jpg);
-  /*background-position: left center;*/
-}
+  }
 
-p {
-  text-indent: 20px;
-}
-
-.fontS {
+.body1 {
+  background: url(../bg.jpg);}
+.p1 {
   font-size: 2em;
-  text-align: center;
-  background: linear-gradient(to bottom left,#000000, #ffffff);
-}
-
-.text {
-  text-decoration: underline;
+  text-indent: 2em;
   text-decoration-color: red;
-  text-decoration-style: dashed;
+
+
 }
 
-img {
-  opacity: .8;
-  border: 3px solid black;
-}
 
-th {
-  color: green;
-}
-
-td {
-  padding: 5px;
-  border-collapse: collapse;
-  border: 2px solid red;
-}
-© 2020 GitHub, Inc.
