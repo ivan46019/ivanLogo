@@ -1,0 +1,96 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+ul {
+  font-size: 20px;
+}
+
+.alignment {
+  text-align: center;
+}
+
+.alignmentShewchenko {
+  text-align: -webkit-left;
+}
+
+.size {
+  font-size: 19px;
+}
+
+.spacing {
+  letter-spacing: 30px;
+  text-align: center
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+.underLine {
+  text-decoration: underline;
+}
+
+.lineThrough {
+  text-decoration: line-through;
+}
+
+/* для шевченка*/
+.grey {
+  text-decoration: underline;
+}
+
+.black {
+  font-size: 30px;
+  color: black;
+}
+
+.red {
+  font-size: 30px;
+  color: darkred;
+}
+
+.green {
+  font-size: 30px;
+  color: green;
+}
+
+/* для т1*/
+.table1 {
+  width: 50%;
+  height: 300px;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  text-align: center;
+}
+
+/* для т2*/
+.table2 {
+  width: 50%;
+  border-collapse: collapse;
+}
+
+colgroup {
+  background-color: yellowgreen;
+}
+
+/* для т3*/
+.table3 {
+  width: 70%;
+  height: 200px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  background-color: yellow;
+  border: 2px solid black;
+}
+
+.td {
+  border: 2px solid black;
+}
